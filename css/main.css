@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  border-collapse: collapse;
+}
+
+body {
+  font-family: sans-serif;
+  color: hsla(200, 100%, 10%, 1);
+  font-size: 62.5%;
+  font-weight: 400;
+  line-height: 1.5;
+}
+main {
+  display: grid;
+  place-content: center;
+}
+
+.app-title {
+  display: grid;
+  place-content: center;
+  line-height: 1.25;
+  margin: 0.5rem 0;
+  border-bottom: solid 0.05rem hsla(0, 0%, 15%, 1);
+}
+
+.color-panel-title {
+  padding: 0.5rem;
+  margin: 0 0 0.5rem 0;
+  border-bottom: solid 0.05rem hsla(0, 0%, 15%, 1);
+}
+.colors {
+  display: grid;
+  grid-template-columns: repeat(11, 2rem);
+  place-content: center;
+  grid-column-gap: 0.3rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.colors > div {
+  border-radius: 0.3rem;
+}
+
+.current-color {
+  border-radius: 0.3rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 2rem);
+  place-content: center;
+}
+.pixel {
+  width: 2rem;
+  height: 2rem;
+  border: solid 0.05rem hsla(0, 0%, 15%, 1);
+  cursor: pointer;
+}

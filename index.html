@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Pixel Painter</title>
+  </head>
+  <body>
+    <header class="app-title">
+      <h1>Pixel Painter</h1>
+    </header>
+    <main>
+      <header class="color-panel-title">
+        <h2>Colors</h2>
+      </header>
+      <section class="colors">
+        <div id="0" class="pixel red"></div>
+        <div id="25" class="pixel orange"></div>
+        <div id="60" class="pixel yellow"></div>
+        <div id="100" class="pixel green"></div>
+        <div id="180" class="pixel cyan"></div>
+        <div id="240" class="pixel blue"></div>
+        <div id="280" class="pixel purple"></div>
+        <div id="305" class="pixel pink"></div>
+        <div id="26" class="pixel brown"></div>
+        <div id="360" class="pixel white"></div>
+        <div id="1" class="pixel black"></div>
+      </section>
+      <header class="shades-panel-title">
+        <h2>Shades</h2>
+      </header>
+      <section class="colors shades">
+        <div class="pixel red"></div>
+        <div class="pixel orange"></div>
+        <div class="pixel yellow"></div>
+        <div class="pixel green"></div>
+        <div class="pixel cyan"></div>
+        <div class="pixel blue"></div>
+        <div class="pixel purple"></div>
+        <div class="pixel pink"></div>
+        <div class="pixel brown"></div>
+      </section>
+      <section>
+        <div class="pixel current-color"></div>
+      </section>
+      <header>
+        <h2>Artboard</h2>
+        <label for="grid-size">Grid Size</label>
+        <input id="grid-size" type="number" step="100" value="100" max="300" />
+        <button>Create</button>
+      </header>
+      <section class="grid"></section>
+    </main>
+    <script src="js/app.js"></script>
+  </body>
+</html>
